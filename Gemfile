@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 gem 'devise'
+gem "letter_opener", :group => :development
+gem 'figaro'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
